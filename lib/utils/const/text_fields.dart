@@ -4,3 +4,8 @@ class OnboardingTextFields {
       'Stay ahead of the weather with our \naccurate forecasts';
   static const String onboardingButtonText = 'Get started';
 }
+
+// Home page texts
+class HomePageTextFields {
+  static const String wishText = 'Good morning';
+}
