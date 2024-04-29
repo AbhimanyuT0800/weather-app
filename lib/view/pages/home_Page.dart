@@ -11,7 +11,10 @@ class HomePage extends ConsumerWidget {
     return Scaffold(
       body: ref.watch(getWeatherProvider).when(
             data: (data) {
-              return WeatherDetailsPage(model: data);
+              return WeatherDetailsPage(
+                model: data,
+                ref: ref,
+              );
             },
             error: (error, stackTrace) => Center(
               child: Text('An Error found : $error'),

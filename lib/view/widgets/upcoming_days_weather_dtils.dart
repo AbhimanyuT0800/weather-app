@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app/utils/dynamic_sizes.dart';
 
-Container upcoming_days_weather_dtils(
+Container upcomingDaysWeatherDtils(
     {required BuildContext context,
     required String weatherImage,
     required String temp,
