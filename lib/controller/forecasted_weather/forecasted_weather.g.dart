@@ -7,7 +7,7 @@ part of 'forecasted_weather.dart';
 // **************************************************************************
 
 String _$getForecastedWeatherHash() =>
-    r'8fdc0d23227554e92e5efeed14f5401a0760c6a2';
+    r'd6c1db76b6b0428a8fd726ba2e016a7fd4d69625';
 
 /// See also [getForecastedWeather].
 @ProviderFor(getForecastedWeather)
